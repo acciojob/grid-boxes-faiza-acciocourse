@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+.grid div {
+  background-color: green;
+  min-width: 200px;
+  min-height: 100px;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 200px)
+}
+
+#div1 {
+  grid-column: span 4;
+}
+
+#div2 {
+  grid-row: span 4;
+}
+
+#div4 {
+  grid-column: span 2;
+}
+
+#div5 {
+  grid-column: span 2;
+}
+
+#div10 {
+  grid-column: span 3;
+}
